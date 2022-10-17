@@ -43,7 +43,7 @@ int GetSum(int number){
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 6, 1, 33 -> [6, 1, 33] */
 
-int[] array = GetBinnaryArray(8);
+/* int[] array = GetBinnaryArray(8);
 Console.WriteLine($"[{String.Join(",", array)}]");
 
 int[] GetBinnaryArray(int size){
@@ -52,4 +52,4 @@ int[] GetBinnaryArray(int size){
         result[i] = new Random().Next();
     }
     return result;
-}
+} */
